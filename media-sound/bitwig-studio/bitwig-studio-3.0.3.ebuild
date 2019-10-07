@@ -81,9 +81,7 @@ src_install() {
 	insinto /usr/share/mime/packages
 	doins usr/share/mime/packages/bitwig-studio.xml
 
-	doicon -c apps -s 48 usr/share/icons/hicolor/48x48/apps/bitwig-modular.png
 	doicon -c apps -s 48 usr/share/icons/hicolor/48x48/apps/bitwig-studio.png
-	doicon -c apps -s scalable usr/share/icons/hicolor/scalable/apps/bitwig-modular.svg
 	doicon -c apps -s scalable usr/share/icons/hicolor/scalable/apps/bitwig-studio.svg
 	doicon -c mimetypes -s scalable usr/share/icons/hicolor/scalable/mimetypes/application-bitwig-*.svg
 
