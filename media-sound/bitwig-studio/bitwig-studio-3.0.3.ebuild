@@ -94,7 +94,7 @@ pkg_preinst() {
 
 pkg_postinst() {
 	gnome2_icon_cache_update
-	xdg_mime_database_update
+	xdg_mimeinfo_database_update
 	xdg_desktop_database_update
 
 	if ! use libav; then
@@ -105,6 +105,6 @@ pkg_postinst() {
 
 pkg_postrm() {
 	gnome2_icon_cache_update
-	xdg_mime_database_update
+	xdg_mimeinfo_database_update
 	xdg_desktop_database_update
 }
