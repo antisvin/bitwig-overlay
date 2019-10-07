@@ -35,7 +35,7 @@ emerge -a bitwig-studio
 For more information on the subject, please, check: https://wiki.gentoo.org/wiki//etc/portage/repos.conf
 
 # java
-We have removed the bundled jre binary so we can setup and use a system-wide version. Please, read: https://wiki.gentoo.org/wiki/Java in order to be able to setup `oracle-jre-bin`.
+We have removed the bundled jre binary so we can setup and use a system-wide version. Please, read: https://wiki.gentoo.org/wiki/Java in order to be able to setup `oracle-jre-bin`. You must set this VM as your user's VM using `eselect java-vm`.
 
 # Bug, comments and requests
 Please post a ticket here on GitHub.
