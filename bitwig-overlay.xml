@@ -3,11 +3,11 @@
   <repo priority="50" quality="experimental">
     <name>bitwig-overlay</name>
     <description>Overlay for Bigwig Studio software</description>
-    <homepage>https://github.com/Ridderby/bitwig-overlay</homepage>
+    <homepage>https://github.com/antisvin/bitwig-overlay</homepage>
     <owner>
-      <email>tech@rby.nu</email>
-      <name>Erik Ridderby</name>
+      <email>antisvin@gmail.com</email>
+      <name>Stas Shtin</name>
     </owner>
-    <source type="git">https://github.com/Ridderby/bitwig-overlay.git</source>
+    <source type="git">https://github.com/antisvin/bitwig-overlay.git</source>
   </repo>
 </repositories>
