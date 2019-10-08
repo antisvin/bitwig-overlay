@@ -76,7 +76,7 @@ src_install() {
 
 	dosym ${BITWIG_HOME}/bitwig-studio /usr/bin/bitwig-studio
 	exeinto "${BITWIG_HOME}/bin"
-	dosym /usr/bin/java ${BITWIG_HOME}/bin/BitwigStudio
+	dosym ${JAVA_HOME}/bin/java ${BITWIG_HOME}/bin/BitwigStudio
 
 	insinto /usr/share/mime/packages
 	doins usr/share/mime/packages/bitwig-studio.xml
